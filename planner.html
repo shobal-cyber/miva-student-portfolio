@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Academic Planner - Heart Lubem</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+</head> 
+<body> 
+ 
+    <header> 
+        <nav class="navbar"> 
+            <div class="logo">Heart Lubem Portfolio</div> 
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Me</a></li> 
+                <li><a href="projects.html">Projects</a></li> 
+                <li><a href="planner.html" class="active">Planner</a></li> 
+                <li><a href="contact.html">Contact</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main class="container"> 
+        <section class="planner-section"> 
+            <h1>Interactive Academic Planner</h1> 
+            <p>Keep track of assignment schedules, TMAs, and study sessions here.</p> 
+             
+            <div class="planner-box"> 
+                <input type="text" id="taskInput" placeholder="What is Nmap?..."> 
+                <button id="addTaskBtn">Add Task</button> 
+            </div> 
+ 
+            <ul id="taskList"></ul> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2025 Heart Lubem | MIVA Open University.</p> 
+    </footer> 
+ 
+    <!-- Connect interactive logic --> 
+    <script src="js/planner.js"></script> 
+</body> 
+</html>

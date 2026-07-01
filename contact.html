@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contact - Heart Lubem</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+</head> 
+<body> 
+ 
+    <header> 
+        <nav class="navbar"> 
+            <div class="logo">Heart Lubem Portfolio</div> 
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Me</a></li> 
+                <li><a href="projects.html">Projects</a></li> 
+                <li><a href="planner.html">Planner</a></li> 
+                <li><a href="contact.html" class="active">Contact</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main class="container"> 
+        <section class="contact-section"> 
+            <h1>Contact Me</h1> 
+            <p>Send a message and I will respond to you quickly.</p> 
+             
+            <form id="contactForm"> 
+                <label for="userName">Heart Lubem</label> 
+                <input type="text" id="userName" placeholder="Heart Lubem"> 
+ 
+                <label for="userEmail">hacker2026@yahoo.com</label> 
+                <input type="text" id="userEmail" placeholder="Example: hacker2026@yahoo.com"> 
+ 
+                <label for="userPhone">08034528080</label> 
+                <input type="text" id="userPhone" placeholder="Digits only (08034528080)"> 
+ 
+                <label for="userMessage">Tech is now and the future</label> 
+                <textarea id="userMessage" rows="5" placeholder="by building digital skills today, you are not just adapting to change, you are gaining the tools to build it...."></textarea> 
+ 
+                <button type="submit">Submit Message</button> 
+                <p id="formFeedback" class="feedback-msg"></p> 
+            </form> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2026 Heart Lubem | MIVA Open University.</p> 
+    </footer> 
+ 
+<!-- Connect validation logic --> 
+<script src="js/contact.js"></script> 
+</body> 
+</html>
